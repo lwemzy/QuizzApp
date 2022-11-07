@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="The Science Quiz Game"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In what year did the first Man land on the moon? "></TextView>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/ninenine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1999" />
+
+        <RadioButton
+            android:id="@+id/eighteight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1988" />
+
+        <RadioButton
+            android:id="@+id/sixnine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1969" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select companies from below list that do not manufacture cars?" />
+
+    <CheckBox
+        android:id="@+id/boeing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boeing"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/ford"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ford"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/airbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air Bus"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+
+            />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Reset" />
+    </LinearLayout>
+
+</LinearLayout>
